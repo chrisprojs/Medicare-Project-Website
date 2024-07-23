@@ -1,0 +1,63 @@
+.healthplace{
+    position:absolute;
+    text-align: center;
+    top: 10vw;
+    left: 17vw;
+    z-index: 0;
+}
+
+.healthtext{
+    font-size: 30px;
+}
+
+.ourtext{
+    font-size: 12px;
+}
+
+.healthcard{
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    width: 20vw;
+    text-align: left;
+    margin: 20px;
+}
+
+.healthcard img{
+    width: 20vw;
+    position: relative;
+}
+
+.productstext{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.desc{
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.healthbox{
+    display: flex;
+}
+
+.bestsellingtext{
+    position:absolute;
+    background-color: yellow;
+    padding: 10px 10px;
+    border:1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    top: 10vw;
+    left: 1.4vw;
+    z-index: 1;
+}
+
+@media (max-width:600px) {
+    .healthplace{
+        left: 9vw;
+    }
+    .bestsellingtext{
+        top: 20vw;
+    }
+}

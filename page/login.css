@@ -1,0 +1,59 @@
+.verify {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 20vw;
+    color: #CCC;
+    border-bottom: 3px solid;
+    border-color: black;
+}
+
+.login-text{
+    font-size: 20px;
+}
+
+.logininput{
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10vw;
+    left: 41vw;
+}
+
+.inputtext{
+    font-size: 10px;
+    color: rgb(77, 189, 152);
+}
+
+.inputplace{
+    padding: 10px 0px;
+}
+
+.loginplace{
+    padding: 30px 0px;
+}
+
+.loginbutton{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: #5ca6a6;
+    border-color: #5ca6a6;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+}
+
+.registercolor{
+    color: #5ca6a6;
+}
+
+@media (max-width:600px) {
+    .logininput{
+        left: 25vw;
+    }
+    .loginbutton{
+        left: 18vw;
+    }
+}

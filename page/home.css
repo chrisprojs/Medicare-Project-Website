@@ -1,0 +1,65 @@
+.homepict{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    width: 99%;
+    height: 80%;
+    filter: brightness(50%);
+    z-index: 0;
+}
+.welcome {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 15vw;
+    left: 35%;
+    z-index: 1;
+}
+
+.one {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 20vw;
+    left: 41%;
+    z-index: 1;
+}
+
+.joinus{
+    position: absolute;
+    background-color: #38abab;
+    font-size: 12;
+    width: 5vw;
+    color: white;
+    font-size: 20px;
+    top: 25vw;
+    left: 48%;
+    text-align: center;
+    padding: 1px 1px;
+    z-index: 1;
+}
+
+.joinlinks{
+    color: white;
+}
+
+@media (max-width:600px) {
+    .homepict{
+        width: 96%;
+    }
+    .welcome{
+        font-size: 30px;
+        left: 20vw;
+        top:30vw;
+    }
+    .one{
+        top: 40vw;
+        left: 25vw;
+    }
+    .joinus{
+        display: flex;
+        top: 60vw;
+        padding: 5px 5px;
+    }
+}
+

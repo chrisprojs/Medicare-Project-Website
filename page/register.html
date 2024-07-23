@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./../navbar.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./../footer.css">
+    <link rel="stylesheet" href="./register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="hamburger">&#9776;</div>
+    <nav class="nav-bar">
+        <img src="./../assets/icon.png">
+        <div class="navs">
+        <ul class="nav-links">
+            <li class="reg"><a href="./home.html" class="links">Home</a></li>
+            <li class="reg products"><a href="#" class="links">Products</a></li>
+            <li class="reg"><a href="./aboutus.html" class="links">About Us</a></li>
+            <li class="reg"><a href="./register.html" class="links">Register</a></li>
+            <li class="reg log"><a href="./login.html" class="links">Login</a></li>
+        </ul>
+        <ul class="sub-list-products">
+            <li><a href="./healthcare.html" class="products-list">Healthcare</a></li>
+            <li><a href="./cosmetic.html" class="products-list">Cosmetic</a></li>
+            <li><a href="./misc.html" class="products-list">Misc.</a></li>
+        </ul>
+        </div>
+    </nav>
+    <form action="#" class="logininput" onsubmit="return regvalidate()">
+        <p class="login-text">Register</p>
+        <div class="inputplace">
+        <input type="text" class="verify" id="name" placeholder="Full name" required>
+        </div>
+        <div class="inputplace">
+        <input type="email" class="verify" id="email" placeholder="Email" required>
+        </div>
+        <div class="inputplace">
+        <p class="regtext">Gender</p>
+        <div class="flexradio">
+        <input type="radio" name="gender" value="Male" class="radiobtn" required><p>Male</p>
+        <input type="radio" name="gender" value="Female" class="radiobtn" required><p>Female</p>
+        </div>
+        <div class="inputplace">
+        <p class="regtext">City</p>
+        <div class="flexradio">
+        <select class="cityselect" required="">
+            <option value="">Select City</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Bali">Bali</option>
+            <option value="Depok">Depok</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+        </select>
+        </div>
+        </div>
+        <div class="inputplace">
+        <p class="inputtext">Password</p>
+        <input type="password" class="verify" id="password" placeholder="Password" required>
+        </div>
+        <div class="inputplace">
+            <p class="inputtext">Confirm Password</p>
+            <input type="password" class="verify" id="confirm_password" placeholder="Password" required>
+        </div>
+        <div class="loginplace">
+            <button class="registerbutton" type="submit">Register</button>
+        </div>
+    </form>
+    <footer class="footer">
+        <div class="logo">
+        <a href="https://twitter.com/chris88xyz" target="_blank" class="links"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/christian.antonius.92/" target="_blank" class="links"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/chris88xyz/" target="_blank" class="links"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="copyrighttext">Copyright © 2022 Christian Antonius Anggaresta. All Rights Reserved.</p>
+    </footer>
+</body>
+    <script src="./../navbar.js"></script>
+    <script src="./../register.js"></script>
+</html>

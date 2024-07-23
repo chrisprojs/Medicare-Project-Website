@@ -1,0 +1,43 @@
+.registerbutton{
+    padding: 10px;
+    background-color: #5ca6a6;
+    border-radius: 5px;
+    color: white;
+    border-color: #5ca6a6;
+    width: 10vw;
+    position: absolute;
+    left: 4vw;
+}
+
+.flexradio{
+    display: flex;
+}
+
+.regtext{
+    font-size: 10px;
+    color: black;
+}
+
+.cityselect{
+    width: 20vw;
+    border-radius: 5px;
+    border: 3px solid;
+    height: 2vw;
+}
+
+.radiobtn {
+    accent-color: #5ca6a6;
+}
+
+.footer {
+    left: -2vw;
+}
+
+@media (max-width:600px) {
+    .cityselect{
+        height: 3vw;
+    }
+    .registerbutton{
+        width: 15vw;
+    }
+}

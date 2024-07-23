@@ -1,0 +1,18 @@
+.footer{
+    position: absolute;
+    width: 30vw;
+    top: 60vw;
+    left: 38vw;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    left: 10vw;
+}
+
+@media (max-width:600px) {
+    .footer{
+        top: 160vw;
+    }
+}
